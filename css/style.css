@@ -1,0 +1,282 @@
+body {
+    background-color: #e7dfd4;
+    margin: 0;
+    padding: 0;
+    font-family: "Cardo", serif;
+}
+
+header{
+    background-color: #beb3a4;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+header img{
+    width: 8%;
+}
+
+header h1{
+    padding-right: 1%;
+    color: #4e6e45;
+}
+
+.eslogan {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: start; 
+    padding: 20px;
+}
+
+.contenedor1 img {
+    max-width: 15%; 
+    margin-right: 20px; 
+    height: auto;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 50%;
+}
+
+.contenedor1 p {
+    margin: 0;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.contenedor1 h1 {
+    font-size: 50px;
+}
+
+.contenedor2 h1 {
+    font-size: 50px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: end; 
+    padding: 20px;
+}
+
+.contenedor2 img {
+    max-width: 15%; 
+    margin-left: 20px; 
+    height: auto;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 50%;
+}
+
+.contenedor2 p {
+    margin: 0;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.contenedor3 {
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: start; 
+    padding: 20px;
+}
+
+.contenedor3 img {
+    max-width: 15%; 
+    margin-right: 20px; 
+    height: auto;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 50%;
+}
+
+.contenedor3 p {
+    margin: 0;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.contenedor3 h1 {
+    font-size: 50px;
+}
+
+.imagengrande img {
+    width: 100%;
+    height: 50%;
+}
+
+.tituloproductos {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productosContainer {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #beb3a4;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    margin-top: 30px;
+    width: 350px;
+    height: 350px;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin: 30px;
+    border-width: 1px;
+    border-style: double ;
+    border-color: #5f4633;
+}
+
+.producto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.producto h2 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.producto p {
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+}
+.producto a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    padding-top: 0px;
+    border-radius: 10px;
+    background-color: #5f4633;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top:20px ;
+    font-weight: bold;
+}
+.producto a:hover {
+    background-color: #b88965;
+}
+
+.producto img {
+max-width: 100%; 
+height: 50%; 
+border-radius: 5px;
+margin-bottom: 15px; 
+}
+
+.reseñas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.reseñas a {
+    text-decoration: none;
+    color: rgb(32, 29, 29);
+}
+
+.reseñas h1 {
+    font-size: 30px;
+}
+
+.reseñas p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: #beb3a4;
+    margin: 0;
+    color: #4c7041;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: #4e6e45;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .eslogan {
+        font-size: 10px;
+        margin-right: 20px;
+    }
+
+    .contenedor3 h1 {
+        font-size: 20px;
+    }
+    .contenedor1 h1 {
+        font-size: 20px;
+    }
+
+    .tituloproductos h1 {
+        font-size: 20px;
+    }
+
+    .contenedor2 h1 {
+        font-size: 20px;
+        margin-left: 0;
+
+    }
+
+    .contenedor3 p {
+        max-width: 500px;
+        font-size: 14px;
+    }
+    .contenedor1 p {
+        max-width: 500px;
+        font-size: 14px;
+
+    }
+
+    .contenedor2 p {
+        max-width: 500px;
+        font-size: 14px;
+
+    }
+
+    .productosContainer {
+       max-width: 85%;
+       justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+
+    }
+
+}
